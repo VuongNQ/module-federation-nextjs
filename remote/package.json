@@ -19,6 +19,7 @@
     "i18next-localstorage-backend": "^4.2.0",
     "react-i18next": "^13.4.1",
     "styled-components": "^6.1.1",
+    "@module-federation/nextjs-mf": "^7.0.8",
     "dotenv": "^16.3.1"
   },
   "devDependencies": {
