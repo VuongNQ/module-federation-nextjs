@@ -13,8 +13,7 @@ const nextConfig = {
   },
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     const remotes = {
-      nextBrio: `nextBrio@http://localhost:3001/_next/static/${isServer ? "ssr" : "chunks"}/remoteEntry.js`,
-      // reactBrio: "reactBrio@http://localhost:3002/remoteEntry.js",
+      remoteApp: `remoteApp@http://localhost:3001/_next/static/${isServer ? "ssr" : "chunks"}/remoteEntry.js`,
     };
     const federationConfig = {
       name: "shell",
