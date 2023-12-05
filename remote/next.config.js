@@ -13,7 +13,7 @@ const nextConfig = {
         const remotes = {
         };
         const federationConfig = {
-            name: "remote",
+            name: "remoteApp",
             filename: "static/chunks/remoteEntry.js",
             exposes: {
                 "./Remote": "./src/remote-entry.ts",
@@ -22,7 +22,7 @@ const nextConfig = {
             shared: {
             },
             extraOptions: {
-                exposePages: true,
+                // exposePages: true,
             },
         };
         // console.log(federationConfig);
