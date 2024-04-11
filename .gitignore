@@ -1,3 +1,5 @@
 node_modules
 shell/package-lock.json
 remote/package-lock.json
+remote/dist/.dev-server.zip
+shell/dist/.dev-server.zip

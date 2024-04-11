@@ -22,7 +22,7 @@ const nextConfig = {
             shared: {
             },
             extraOptions: {
-                // exposePages: true,
+                exposePages: true,
             },
         };
         // console.log(federationConfig);

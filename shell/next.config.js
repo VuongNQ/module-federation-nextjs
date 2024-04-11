@@ -23,7 +23,7 @@ const nextConfig = {
       remotes,
       shared: {},
       extraOptions: {
-        exposePages: true,
+        // exposePages: true,
       },
     };
     // console.log(federationConfig);
